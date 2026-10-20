@@ -1,0 +1,41 @@
+{
+    "configurations": [
+        {
+            "cStandard": "c99",
+            "compilerPath": "C:/JL/pi32/bin/clang.exe",
+            "cppStandard": "c++11",
+            "defines": [
+                "SUPPORT_MS_EXTENSIONS",
+                "CONFIG_CPU_BR28",
+                "__GCC_Q32S__",
+                "__LD__",
+                "__Q32S__"
+            ],
+            "includePath": [
+                "${workspaceFolder}/include_lib",
+                "${workspaceFolder}/include_lib\\driver\\cpu\\br28",
+                "${workspaceFolder}/include_lib\\system",
+                "${workspaceFolder}/include_lib\\system\\generic",
+                "${workspaceFolder}/include_lib\\system\\device",
+                "${workspaceFolder}/include_lib\\system\\fs",
+                "${workspaceFolder}/include_lib\\media",
+                "${workspaceFolder}/include_lib\\media\\cpu\\br28",
+                "${workspaceFolder}/include_lib\\media\\aec",
+                "${workspaceFolder}/include_lib\\btctrler",
+                "${workspaceFolder}/include_lib\\btctrler\\port\\br28",
+                "${workspaceFolder}/include_lib\\update",
+                "${workspaceFolder}/apps\\watch\\include",
+                "${workspaceFolder}/apps\\common\\ble\\include",
+                "${workspaceFolder}/apps\\common\\adsp\\include",
+                "${workspaceFolder}/apps\\earphone\\board\\br28",
+                "${workspaceFolder}/cpu\\br28",
+                "${workspaceFolder}/apps\\include",
+                "${workspaceFolder}/apps\\include\\led7_driver",
+                "C:/JL/pi32/pi32v2-include"
+            ],
+            "intelliSenseMode": "clang-x86",
+            "name": "701N_makelib"
+        }
+    ],
+    "version": 4
+}

@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "cStandard": "c99",
+            "compilerPath": "C:/JL/pi32/bin/clang.exe",
+            "cppStandard": "c++11",
+            "defines": [
+                "__GCC_Q32S__",
+                "PMU_SYSTEM",
+                "CONFIG_FPGA_ENABLE",
+                "__Q32S__"
+            ],
+            "includePath": [
+                "${workspaceFolder}/include/cpu/br28",
+                "${workspaceFolder}/include/generic",
+                "${workspaceFolder}/apps",
+                "${workspaceFolder}/apps/common",
+                "${workspaceFolder}/apps/common/sport",
+                "${workspaceFolder}/apps/common/device",
+                "${workspaceFolder}/include/device",
+                "${workspaceFolder}/apps/common/device/hr_sensor/vchr02",
+                "C:/JL/pi32/q32s-include"
+            ],
+            "intelliSenseMode": "clang-x86",
+            "name": "AC701N_p11"
+        }
+    ],
+    "version": 4
+}

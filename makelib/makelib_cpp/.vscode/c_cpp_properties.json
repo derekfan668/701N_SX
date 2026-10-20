@@ -1,0 +1,48 @@
+{
+    "configurations": [
+        {
+            "cStandard": "c99",
+            "compilerPath": "C:/JL/pi32/bin/clang.exe",
+            "cppStandard": "c++11",
+            "defines": [
+                "SUPPORT_MS_EXTENSIONS",
+                "_XOPEN_SOURCE=700",
+                "_LIBCPP_HAS_NO_THREADS",
+                "_LIBCPP_NO_EXCEPTIONS",
+                "_GNU_SOURCE",
+                "_LIBCPP_HAS_NO_ALIGNED_ALLOCATION",
+                "__ELF__",
+                "CONFIG_CPU_BR28",
+                "__GCC_PI32V2__",
+                "__LD__",
+                "__PI32V2__"
+            ],
+            "includePath": [
+                "${workspaceFolder}/include_lib",
+                "${workspaceFolder}/include_lib\\driver\\cpu\\br28",
+                "${workspaceFolder}/include_lib\\system",
+                "${workspaceFolder}/include_lib\\system\\generic",
+                "${workspaceFolder}/include_lib\\system\\device",
+                "${workspaceFolder}/include_lib\\system\\fs",
+                "${workspaceFolder}/include_lib\\media",
+                "${workspaceFolder}/include_lib\\media\\cpu\\br28",
+                "${workspaceFolder}/include_lib\\media\\aec",
+                "${workspaceFolder}/include_lib\\btctrler",
+                "${workspaceFolder}/include_lib\\btctrler\\port\\br28",
+                "${workspaceFolder}/include_lib\\update",
+                "${workspaceFolder}/apps\\watch\\include",
+                "${workspaceFolder}/apps\\common\\ble\\include",
+                "${workspaceFolder}/apps\\common\\adsp\\include",
+                "${workspaceFolder}/apps\\earphone\\board\\br28",
+                "${workspaceFolder}/cpu\\br28",
+                "${workspaceFolder}/apps\\include",
+                "${workspaceFolder}/apps\\include\\led7_driver",
+                "${workspaceFolder}/cxx\\include",
+                "C:/JL/pi32/pi32v2-include"
+            ],
+            "intelliSenseMode": "clang-x86",
+            "name": "701N_makelib"
+        }
+    ],
+    "version": 4
+}
